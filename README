@@ -1,0 +1,2 @@
+1, include the following in ~/.vimrc
+* source dotfiles/.vimrc
