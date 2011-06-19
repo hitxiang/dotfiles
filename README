@@ -1,15 +1,18 @@
-1, include the following in ~/.vimrc
-* source ~/dotfiles/vundle_vimrc
-* source ~/dotfiles/setting_vimrc
+1, clone this repository
+$ cd ~ && git clone <this_repository>
+
+2, include the following in ~/.vimrc
+ source ~/dotfiles/vundle_vimrc
+ source ~/dotfiles/setting_vimrc
 
 inlcude the following in ~/.gvimrc
-* source ~/dotfiles/gvimrc
+ source ~/dotfiles/gvimrc
 
-2, install vundle--vim plugin manager
+3, install vundle--vim plugin manager
 $ cd ~ && mkdir .vim 
 $ cd .vim & git init 
 $ git submodule add https://github.com/gmarik/vundle.git bundle/vundle
 
-3, install vim plugin
+4, install vim plugin
 start vim and execute the next in command line mode
 :BundleInstall
