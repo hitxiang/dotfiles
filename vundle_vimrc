@@ -10,7 +10,6 @@ Bundle 'gmarik/vundle'
 " vim-scripts repos
 Bundle 'xptemplate'
 Bundle 'L9'
-Bundle 'FuzzyFinder'
 Bundle 'rails.vim'
 Bundle 'endwise.vim'
 Bundle 'ack.vim'
@@ -22,13 +21,22 @@ Bundle 'ragtag.vim'
 Bundle 'bufexplorer.zip'
 
 " original repos on github
+Bundle 'tpope/vim-git'
 Bundle 'tpope/vim-fugitive'
+
 Bundle 'tpope/vim-surround'
+Bundle 'sjl/gundo.vim'
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 Bundle "scrooloose/nerdtree"
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'vim-ruby/vim-ruby'
+"python
+Bundle 'sontek/rope-vim'
+Bundle 'kevinw/pyflakes'
+Bundle 'kevinw/pyflakes-vim'
+Bundle 'vim-scripts/pep8'
+
 
 " non github repos
 Bundle 'git://git.wincent.com/command-t.git'
