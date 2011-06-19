@@ -23,6 +23,10 @@ Bundle 'bufexplorer.zip'
 " original repos on github
 Bundle 'tpope/vim-git'
 Bundle 'tpope/vim-fugitive'
+Bundle 'int3/vim-extradite'
+Bundle 'tpope/vim-repeat'
+Bundle 'tpope/vim-unimpaired'
+Bundle 'Rip-Rip/clang_complete'
 
 Bundle 'tpope/vim-surround'
 Bundle 'sjl/gundo.vim'
@@ -31,6 +35,12 @@ Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 Bundle "scrooloose/nerdtree"
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'vim-ruby/vim-ruby'
+Bundle 'vim-scripts/ManPageView'
+Bundle 'vim-scripts/Conque-Shell'
+Bundle 'rosstimson/scala-vim-support'
+Bundle 'manalang/jshint.vim'
+Bundle 'thinca/vim-quickrun'
+Bundle 'tomtom/checksyntax_vim'
 "python
 Bundle 'sontek/rope-vim'
 Bundle 'kevinw/pyflakes'

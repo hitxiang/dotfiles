@@ -2,6 +2,13 @@
 "This must be first, because it changes other options as a side effect.
 set nocompatible
 
+"load ftplugins and indent files
+filetype plugin on
+filetype indent on
+
+"turn on syntax highlighting
+syntax on
+
 "allow backspacing over everything in insert mode
 set backspace=indent,eol,start
 
@@ -16,7 +23,14 @@ set hlsearch    "hilight searches by default
 
 set number      "add line numbers
 set showbreak=...
-set wrap linebreak nolist
+set wrap linebreak nolist ruler
+
+"The default leader is '\', but many people prefer ',' as it's in a standard
+""location
+let mapleader = ','
+
+au BufWinLeave * silent! mkview "make vim save view (state) (folds, cursor, etc)
+au BufWinEnter * silent! loadview "make vim load view (state) (folds, cursor, etc)
 
 "add some line space for easy reading
 set linespace=4
@@ -34,14 +48,11 @@ set statusline=%f       "tail of the filename
 
 "Git
 set statusline+=%{fugitive#statusline()}
-
+set statusline+=\ [%{getcwd()}]          " current dir
 "RVM
 set statusline+=%{exists('g:loaded_rvm')?rvm#statusline():''}
 
 set statusline+=%=      "left/right separator
-
-"set statusline+=%{StatuslineCurrentHighlight()}\ \ "current highlight
-
 set statusline+=%c,     "cursor column
 set statusline+=%l/%L   "cursor line/total lines
 set statusline+=\ %P    "percent through file
@@ -184,12 +195,6 @@ set scrolloff=3
 set sidescrolloff=7
 set sidescroll=1
 
-"load ftplugins and indent files
-filetype plugin on
-filetype indent on
-
-"turn on syntax highlighting
-syntax on
 
 "some stuff to get the mouse going in term
 set mouse=a
@@ -405,7 +410,7 @@ let g:SuperTabMappingForward = '<Plug>supertabKey'
 " if nothing matched in xpt, try supertab
 let g:xptemplate_fallback = '<Plug>supertabKey'
 " xpt uses <Tab> as trigger key
-let g:xptemplate_key = '<Tab>'
+"let g:xptemplate_key = '<Tab>'
 " " use <tab>/<S-tab> to navigate through pum. Optional
 " let g:xptemplate_pum_tab_nav = 1
 " " xpt triggers only when you typed whole name of a snippet. Optional
