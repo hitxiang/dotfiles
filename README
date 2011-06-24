@@ -1,5 +1,6 @@
 1, include the following in ~/.vimrc
-* source dotfiles/.vimrc
+* source dotfiles/vundle_vimrc
+* source dotfiles/setting_vimrc
 
 2, install vundle--vim plugin manager
 $ cd ~ && mkdir .vim 
