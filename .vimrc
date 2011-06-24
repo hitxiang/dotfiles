@@ -12,6 +12,7 @@ Bundle 'xptemplate'
 Bundle 'L9'
 Bundle 'FuzzyFinder'
 Bundle 'rails.vim'
+Bundle 'endwise.vim'
 Bundle 'ack.vim'
 Bundle 'Align'
 Bundle "SuperTab"
@@ -27,7 +28,7 @@ Bundle 'Lokaltog/vim-easymotion'
 Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 Bundle "scrooloose/nerdtree"
 Bundle 'scrooloose/nerdcommenter'
-Bundle 'shogo/unite.vim'
+Bundle 'vim-ruby/vim-ruby'
 
 " non github repos
 Bundle 'git://git.wincent.com/command-t.git'
