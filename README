@@ -1,2 +1,11 @@
 1, include the following in ~/.vimrc
 * source dotfiles/.vimrc
+
+2, install vundle--vim plugin manager
+$ cd ~ && mkdir .vim 
+$ cd .vim & git init 
+$ git submodule add https://github.com/gmarik/vundle.git bundle/vundle
+
+3, install vim plugin
+start vim and execute the next in command line mode
+:BundleInstall
