@@ -39,7 +39,6 @@ Bundle 'vim-scripts/ManPageView'
 Bundle 'vim-scripts/Conque-Shell'
 Bundle 'rosstimson/scala-vim-support'
 Bundle 'manalang/jshint.vim'
-Bundle 'thinca/vim-quickrun'
 Bundle 'tomtom/checksyntax_vim'
 "python
 Bundle 'sontek/rope-vim'

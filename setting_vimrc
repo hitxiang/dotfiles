@@ -455,7 +455,7 @@ map <leader>g :GundoToggle<CR>
 let g:pyflakes_use_quickfix = 0
 
 "python pep8
-"let g:pep8_map='<leader>8'
+let g:pep8_map='<leader>8'
 
 "rope
 map <leader>j :RopeGotoDefinition<CR>
