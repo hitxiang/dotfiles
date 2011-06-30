@@ -41,12 +41,17 @@ Bundle 'rosstimson/scala-vim-support'
 Bundle 'manalang/jshint.vim'
 Bundle 'thinca/vim-quickrun'
 Bundle 'tomtom/checksyntax_vim'
+"php
+Bundle 'spf13/PIV'
+"autocomletion for quotes, parens etc
+Bundle 'Raimondi/delimitMate'
 "python
 Bundle 'sontek/rope-vim'
 Bundle 'kevinw/pyflakes'
 Bundle 'kevinw/pyflakes-vim'
 Bundle 'vim-scripts/pep8'
-
+"color schema
+Bundle 'spf13/vim-colors'
 
 " non github repos
 Bundle 'git://git.wincent.com/command-t.git'
