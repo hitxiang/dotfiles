@@ -40,6 +40,8 @@ Bundle 'vim-scripts/Conque-Shell'
 Bundle 'rosstimson/scala-vim-support'
 Bundle 'manalang/jshint.vim'
 Bundle 'tomtom/checksyntax_vim'
+Bundle 'hallison/vim-markdown'
+
 "php
 Bundle 'spf13/PIV'
 "autocomletion for quotes, parens etc
