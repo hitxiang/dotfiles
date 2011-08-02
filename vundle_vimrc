@@ -19,6 +19,7 @@ Bundle "matchit.zip"
 Bundle 'taglist.vim'
 Bundle 'ragtag.vim'
 Bundle 'bufexplorer.zip'
+Bundle 'a.vim'
 
 " original repos on github
 Bundle 'tpope/vim-git'
@@ -53,6 +54,8 @@ Bundle 'kevinw/pyflakes-vim'
 Bundle 'vim-scripts/pep8'
 "color schema
 Bundle 'spf13/vim-colors'
+"erlang
+Bundle 'jimenezrick/vimerl'
 
 " non github repos
 Bundle 'git://git.wincent.com/command-t.git'
