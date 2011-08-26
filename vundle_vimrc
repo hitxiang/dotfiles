@@ -20,6 +20,7 @@ Bundle 'taglist.vim'
 Bundle 'ragtag.vim'
 Bundle 'bufexplorer.zip'
 Bundle 'a.vim'
+Bundle 'Railscasts-Theme-GUIand256color'
 
 " original repos on github
 Bundle 'tpope/vim-git'
