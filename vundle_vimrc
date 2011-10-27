@@ -9,7 +9,7 @@ Bundle 'gmarik/vundle'
 
 " vim-scripts repos
 Bundle 'xptemplate'
-Bundle 'L9'
+"Bundle 'L9'
 Bundle 'rails.vim'
 Bundle 'endwise.vim'
 Bundle 'ack.vim'
@@ -61,7 +61,6 @@ Bundle 'spf13/vim-colors'
 "erlang
 Bundle 'jimenezrick/vimerl'
 
-" non github repos
-Bundle 'git://git.wincent.com/command-t.git'
+Bundle 'wincent/Command-T'
 " ================ vundle ============
 
