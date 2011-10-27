@@ -23,6 +23,7 @@ Bundle 'a.vim'
 "Bundle 'VimClojure'
 Bundle 'haskell.vim'
 Bundle 'indenthaskell.vim'
+Bundle 'Railscasts-Theme-GUIand256color'
 
 " original repos on github
 Bundle 'tpope/vim-git'
