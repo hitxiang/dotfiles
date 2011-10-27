@@ -20,6 +20,9 @@ Bundle 'taglist.vim'
 Bundle 'ragtag.vim'
 Bundle 'bufexplorer.zip'
 Bundle 'a.vim'
+"Bundle 'VimClojure'
+Bundle 'haskell.vim'
+Bundle 'indenthaskell.vim'
 
 " original repos on github
 Bundle 'tpope/vim-git'
