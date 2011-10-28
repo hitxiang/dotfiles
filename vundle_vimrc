@@ -52,13 +52,13 @@ Bundle 'Raimondi/delimitMate'
 Bundle 'sontek/rope-vim'
 Bundle 'kevinw/pyflakes'
 Bundle 'kevinw/pyflakes-vim'
-Bundle 'vim-scripts/pep8'
+"Bundle 'vim-scripts/pep8'
 "color schema
 Bundle 'spf13/vim-colors'
 "erlang
 Bundle 'jimenezrick/vimerl'
 
 " non github repos
-Bundle 'git://git.wincent.com/command-t.git'
+"Bundle 'wincent/Command-T'
 " ================ vundle ============
 
