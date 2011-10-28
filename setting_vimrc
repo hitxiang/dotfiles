@@ -479,3 +479,15 @@ if &diff
     set background=dark
     colorscheme blue
 endif
+
+function! DiffWithFileFromDisk()
+    let filename=expand('%')
+    let nopathfilename=expand('%:t')
+    let diffname = '/tmp/'.nopathfilename.'.fileFromBuffer'
+    exec 'saveas! '.diffname
+    diffthis
+    vsplit
+    exec 'edit '.filename
+    diffthis
+endfunction
+:nmap <F6> :call DiffWithFileFromDisk()<cr>
