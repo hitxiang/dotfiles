@@ -25,6 +25,9 @@ Bundle 'haskell.vim'
 Bundle 'indenthaskell.vim'
 Bundle 'Railscasts-Theme-GUIand256color'
 
+" atuoproto based on taglist, ctags
+Bundle 'autoproto.vim'
+
 " original repos on github
 Bundle 'tpope/vim-git'
 Bundle 'tpope/vim-fugitive'
