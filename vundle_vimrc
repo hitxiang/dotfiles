@@ -9,7 +9,7 @@ Bundle 'gmarik/vundle'
 
 " vim-scripts repos
 Bundle 'xptemplate'
-Bundle 'L9'
+"Bundle 'L9'
 Bundle 'rails.vim'
 Bundle 'endwise.vim'
 Bundle 'ack.vim'
@@ -20,6 +20,9 @@ Bundle 'taglist.vim'
 Bundle 'ragtag.vim'
 Bundle 'bufexplorer.zip'
 Bundle 'a.vim'
+"Bundle 'VimClojure'
+Bundle 'haskell.vim'
+Bundle 'indenthaskell.vim'
 Bundle 'Railscasts-Theme-GUIand256color'
 
 " original repos on github
@@ -58,7 +61,6 @@ Bundle 'spf13/vim-colors'
 "erlang
 Bundle 'jimenezrick/vimerl'
 
-" non github repos
-"Bundle 'wincent/Command-T'
+Bundle 'wincent/Command-T'
 " ================ vundle ============
 
