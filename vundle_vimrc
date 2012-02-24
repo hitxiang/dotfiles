@@ -43,7 +43,7 @@ Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 Bundle "scrooloose/nerdtree"
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'vim-ruby/vim-ruby'
-Bundle 'vim-scripts/ManPageView'
+" Bundle 'vim-scripts/ManPageView'
 Bundle 'vim-scripts/Conque-Shell'
 Bundle 'rosstimson/scala-vim-support'
 Bundle 'manalang/jshint.vim'
