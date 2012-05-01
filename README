@@ -10,7 +10,7 @@ inlcude the following in ~/.gvimrc
 
 3, install vundle--vim plugin manager
 $ cd ~ && mkdir .vim 
-$ cd .vim & git init 
+$ cd .vim && git init 
 $ git submodule add https://github.com/gmarik/vundle.git bundle/vundle
 
 4, install vim plugin
