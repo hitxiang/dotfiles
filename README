@@ -16,3 +16,7 @@ $ git submodule add https://github.com/gmarik/vundle.git bundle/vundle
 4, install vim plugin
 start vim and execute the next in command line mode
 :BundleInstall
+
+5, For tmux
+$ chmod +x tmux-panes
+$ ln -sf ~/dotfiles/.tmux.conf ~
