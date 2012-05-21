@@ -258,6 +258,7 @@ endif
 " nmap <silent> <Leader>q <Plug>PeepOpen
 
 silent! nmap <silent> <C-e> :NERDTreeToggle<CR>
+let NERDTreeIgnore=['\.lo$','\.la$','\.slo$']
 
 "make <c-l> clear the highlight as well as redraw
 nnoremap <C-L> :nohls<CR><C-L>
