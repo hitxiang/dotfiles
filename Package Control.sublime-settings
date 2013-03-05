@@ -2,6 +2,7 @@
 	"auto_upgrade_last_run": null,
 	"installed_packages":
 	[
+		"AdvancedNewFile",
 		"Alignment",
 		"BracketHighlighter",
 		"CTags",
@@ -9,6 +10,7 @@
 		"DocBlockr",
 		"Emmet",
 		"Git",
+		"GotoRecent",
 		"HTMLAttributes",
 		"IndentGuides",
 		"Package Control",
@@ -17,6 +19,7 @@
 		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeREPL",
+		"Terminal",
 		"Theme - Phoenix",
 		"ZenCoding"
 	]
