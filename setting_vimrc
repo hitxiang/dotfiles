@@ -44,11 +44,11 @@ nmap <Up> gk
 set fo=l
 
 "statusline setup
-set statusline=%f       "tail of the filename
+set statusline=%t       "tail of the filename
 
 "Git
 set statusline+=%{fugitive#statusline()}
-set statusline+=\ [%{getcwd()}]          " current dir
+"set statusline+=\ [%{getcwd()}]          " current dir
 "RVM
 set statusline+=%{exists('g:loaded_rvm')?rvm#statusline():''}
 
@@ -257,8 +257,8 @@ endif
 " else in your ~/.vimrc file, such as:
 " nmap <silent> <Leader>q <Plug>PeepOpen
 
+let NERDTreeIgnore = ['\.lo$', '\.la$', '\.slo$']
 silent! nmap <silent> <C-e> :NERDTreeToggle<CR>
-let NERDTreeIgnore=['\.lo$','\.la$','\.slo$']
 
 "make <c-l> clear the highlight as well as redraw
 nnoremap <C-L> :nohls<CR><C-L>
@@ -426,7 +426,7 @@ let g:bufExplorerShowTabBuffer=1
 """"""""""""""""""""""""""""""""""""""""""""
 " NERDTree "
 """"""""""""""""""""""""""""""""""""""""""""
-let NERDTreeIgnore = ['\.pyc$', '\.orig']
+let NERDTreeIgnore += ['\.pyc$', '\.orig']
 
 
 " not working ---- maximize window and return to previouse split structure "
@@ -492,3 +492,6 @@ function! DiffWithFileFromDisk()
     diffthis
 endfunction
 :nmap <F6> :call DiffWithFileFromDisk()<cr>
+
+set backupdir=~/tmp/vim/
+set directory=~/tmp/vim/

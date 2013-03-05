@@ -9,6 +9,7 @@ Bundle 'gmarik/vundle'
 
 " vim-scripts repos
 Bundle 'xptemplate'
+Bundle 'VisIncr'
 "Bundle 'L9'
 Bundle 'tpope/vim-rails'
 Bundle 'endwise.vim'
@@ -46,7 +47,6 @@ Bundle 'vim-ruby/vim-ruby'
 " Bundle 'vim-scripts/ManPageView'
 Bundle 'vim-scripts/Conque-Shell'
 Bundle 'rosstimson/scala-vim-support'
-Bundle 'manalang/jshint.vim'
 Bundle 'tomtom/checksyntax_vim'
 Bundle 'hallison/vim-markdown'
 
@@ -63,5 +63,10 @@ Bundle 'spf13/vim-colors'
 Bundle 'jimenezrick/vimerl'
 
 Bundle 'wincent/Command-T'
+Bundle 'kogent/vim-puppet'
+
+"Bundle 'hallettj/jslint.vim'
+Bundle 'manalang/jshint.vim'
+
 " ================ vundle ============
 

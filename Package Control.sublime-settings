@@ -1,0 +1,21 @@
+{
+	"auto_upgrade_last_run": null,
+	"installed_packages":
+	[
+		"Alignment",
+		"BracketHighlighter",
+		"CTags",
+		"Display Functions (Java)",
+		"Emmet",
+		"Git",
+		"HTMLAttributes",
+		"IndentGuides",
+		"Package Control",
+		"Prefixr",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeREPL",
+		"ZenCoding"
+	]
+}
