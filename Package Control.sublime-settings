@@ -6,6 +6,7 @@
 		"BracketHighlighter",
 		"CTags",
 		"Display Functions (Java)",
+		"DocBlockr",
 		"Emmet",
 		"Git",
 		"HTMLAttributes",
@@ -16,6 +17,7 @@
 		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeREPL",
+		"Theme - Phoenix",
 		"ZenCoding"
 	]
 }
