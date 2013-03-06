@@ -20,3 +20,8 @@ start vim and execute the next in command line mode
 5, For tmux
 $ chmod +x tmux-panes
 $ ln -sf ~/dotfiles/.tmux.conf ~
+
+6, install CommandT vim plugin 
+cd ~/.vim/bundle/Command-T/ruby/command-t
+ruby extconf.rb
+make
