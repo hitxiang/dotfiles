@@ -25,3 +25,10 @@ $ ln -sf ~/dotfiles/.tmux.conf ~
 cd ~/.vim/bundle/Command-T/ruby/command-t
 ruby extconf.rb
 make
+
+7, for sublime
+ln -sf "~/dotfiles/Package Control.sublime-settings" "~/Library/Application Support/Sublime Text 2/Packages/User/Package Control.sublime-settings"
+ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/subl
+alias -g subl subl
+
+
