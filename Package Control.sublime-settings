@@ -4,6 +4,7 @@
 	[
 		"AdvancedNewFile",
 		"Alignment",
+		"AutoFileName",
 		"BracketHighlighter",
 		"CTags",
 		"Display Functions (Java)",
@@ -19,8 +20,10 @@
 		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeREPL",
+		"Surround",
 		"Terminal",
 		"Theme - Phoenix",
+		"Vintage Surround",
 		"ZenCoding"
 	]
 }
