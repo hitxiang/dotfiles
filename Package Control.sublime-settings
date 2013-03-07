@@ -4,6 +4,7 @@
 	[
 		"AdvancedNewFile",
 		"Alignment",
+		"AutoFileName",
 		"BracketHighlighter",
 		"CTags",
 		"Display Functions (Java)",
@@ -23,6 +24,7 @@
 		"Surround",
 		"Terminal",
 		"Theme - Phoenix",
-		"Vintage Surround"
+		"Vintage Surround",
+		"ZenCoding"
 	]
 }
