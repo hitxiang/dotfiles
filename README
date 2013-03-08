@@ -27,7 +27,7 @@ ruby extconf.rb
 make
 
 7, for sublime
-ln -sf "~/dotfiles/Package Control.sublime-settings" "~/Library/Application Support/Sublime Text 2/Packages/User/Package Control.sublime-settings"
+ln -sf ~/dotfiles/*sublime* ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User/
 ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/subl
 alias -g subl subl
 

@@ -1,0 +1,27 @@
+{
+	"color_scheme": "Packages/Color Scheme - Default/Sunburst.tmTheme",
+	"file_exclude_patterns":
+	[
+		"*.swp",
+		"*.lock",
+		".tags*",
+		".DS_Store",
+		".deps",
+		"*.out"
+	],
+	"folder_exclude_patterns":
+	[
+		".bundle",
+		".git",
+		".sass-cache",
+		".svn",
+		"*.out*"
+	],
+	"font_size": 16,
+	"ignored_packages":
+	[
+	],
+	"tab_size": 2,
+	// Set to true to insert spaces when tab is pressed
+  "translate_tabs_to_spaces": true
+}
