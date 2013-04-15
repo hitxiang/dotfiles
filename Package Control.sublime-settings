@@ -18,6 +18,7 @@
 		"Package Control",
 		"Prefixr",
 		"SideBarEnhancements",
+		"sublime-text-puppet",
 		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeREPL",
@@ -26,5 +27,9 @@
 		"Theme - Phoenix",
 		"Vintage Surround",
 		"ZenCoding"
+	],
+	"repositories":
+	[
+		"https://github.com/JeffChan/sublime-text-puppet"
 	]
 }
