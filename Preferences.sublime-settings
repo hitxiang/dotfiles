@@ -17,7 +17,7 @@
 		".svn",
 		"*.out*"
 	],
-	"font_size": 16,
+	"font_size": 17.0,
 	"ignored_packages":
 	[
 	],
