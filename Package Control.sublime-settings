@@ -16,6 +16,7 @@
 		"HTMLAttributes",
 		"IndentGuides",
 		"JSLint",
+		"Origami",
 		"Package Control",
 		"Prefixr",
 		"SideBarEnhancements",
@@ -32,6 +33,7 @@
 	],
 	"repositories":
 	[
-		"https://github.com/JeffChan/sublime-text-puppet"
+		"https://github.com/JeffChan/sublime-text-puppet",
+		"https://github.com/SublimeText/Origami"
 	]
 }
