@@ -493,5 +493,12 @@ function! DiffWithFileFromDisk()
 endfunction
 :nmap <F6> :call DiffWithFileFromDisk()<cr>
 
+if system('uname')=~'Darwin'
+  let s:clang_library_path='/Library/Developer/CommandLineTools/usr/lib'
+  if isdirectory(s:clang_library_path)
+     let g:clang_library_path=s:clang_library_path
+  endif
+endif
+
 set backupdir=~/tmp/vim/
 set directory=~/tmp/vim/
